@@ -13,6 +13,14 @@ const routes: Routes = [
     component: Theme1Component
   },
   {
+    path: ':id/contact1',
+    component: Theme1Component
+  },
+  {
+    path: ':id/about1',
+    component: Theme1Component
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }
