@@ -9,16 +9,22 @@ import { Theme1Component } from './Themes/theme1/theme1.component';
 const routes: Routes = [
 
   {
-    path: ':id/home1',
-    component: Theme1Component
-  },
-  {
-    path: ':id/contact1',
-    component: Theme1Component
-  },
-  {
-    path: ':id/about1',
-    component: Theme1Component
+    path: 'theme/:id',
+    children: [
+      {
+        path: 'home/:id',
+        component: Home1Component,
+      },
+      {
+        path: 'about/:id',
+        component: About1Component,
+      },
+      {
+        path: 'contact/:id',
+        component: Contact1Component,
+      }
+    ],
+    component: Theme1Component,
   },
   {
     path: '**',

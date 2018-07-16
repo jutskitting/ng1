@@ -3,15 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\Components",
-    "\\src\\app\\Components\\Bodies",
-    "\\src\\app\\Components\\Bodies\\body1",
-    "\\src\\app\\Components\\Bodies\\body2",
-    "\\src\\app\\Components\\Bodies\\body3",
-    "\\src\\app\\Components\\Footers",
+    "\\src\\app\\Components\\Footers\\footer1",
+    "\\src\\app\\Components\\Headers\\header1",
+    "\\src\\app\\Pages\\about1",
+    "\\src\\app\\Pages\\contact1",
+    "\\src\\app\\Pages\\home1",
     "\\src\\app\\Themes",
     "\\src\\app\\Themes\\theme1"
   ],
-  "SelectedNode": "\\src\\app\\Themes\\theme1\\theme1.component.html",
+  "SelectedNode": "\\src\\app",
   "PreviewInSolutionExplorer": false
 }
