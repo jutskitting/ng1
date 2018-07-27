@@ -1,30 +1,48 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { Home1Component } from './Pages/home1/home1.component';
-import { About1Component } from './Pages/about1/about1.component';
-import { Contact1Component } from './Pages/contact1/contact1.component';
+import { HomeComponent } from './Pages/home/home.component';
+import { AboutComponent } from './Pages/about/about.component';
+import { ContactComponent } from './Pages/contact/contact.component';
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 import { Theme1Component } from './Themes/theme1/theme1.component';
+import { Theme2Component } from './Themes/theme2/theme2.component';
 
 const routes: Routes = [
-
   {
-    path: 'theme/:id',
+    path: 'theme1',
     children: [
       {
         path: 'home/:id',
-        component: Home1Component,
+        component: HomeComponent,
       },
       {
         path: 'about/:id',
-        component: About1Component,
+        component: AboutComponent,
       },
       {
         path: 'contact/:id',
-        component: Contact1Component,
-      }
+        component: ContactComponent,
+      },
     ],
     component: Theme1Component,
+  },
+  {
+    path: 'theme2',
+    children: [
+      {
+        path: 'home/:id',
+        component: HomeComponent,
+      },
+      {
+        path: 'about/:id',
+        component: AboutComponent,
+      },
+      {
+        path: 'contact/:id',
+        component: ContactComponent,
+      },
+    ],
+    component: Theme2Component,
   },
   {
     path: '**',

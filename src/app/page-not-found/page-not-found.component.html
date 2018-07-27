@@ -1,4 +1,9 @@
 
-<p>
-  page-not-found works!
-</p>
+<h1>
+  Current Themes
+</h1>
+<ul class="themes">
+  <li *ngFor="let Theme of themes">
+    <span class="badge">{{theme.id}}</span> {{theme.name}}
+  </li>
+</ul>

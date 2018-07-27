@@ -1,19 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { PageNotFoundComponent } from './page-not-found.component';
 
-describe('PageNotFoundComponent', () => {
-  let component: PageNotFoundComponent;
-  let fixture: ComponentFixture<PageNotFoundComponent>;
+import { Body4Component } from './body4.component';
+
+describe('Body4Component', () => {
+  let component: Body4Component;
+  let fixture: ComponentFixture<Body4Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageNotFoundComponent ]
+      declarations: [ Body4Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PageNotFoundComponent);
+    fixture = TestBed.createComponent(Body4Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

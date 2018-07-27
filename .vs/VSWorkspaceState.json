@@ -1,16 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+    "\\e2e",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\Components\\Footers\\footer1",
-    "\\src\\app\\Components\\Headers\\header1",
-    "\\src\\app\\Pages\\about1",
-    "\\src\\app\\Pages\\contact1",
-    "\\src\\app\\Pages\\home1",
-    "\\src\\app\\Themes",
-    "\\src\\app\\Themes\\theme1"
+    "\\src\\app\\Components",
+    "\\src\\app\\Pages",
+    "\\src\\app\\Pages\\about",
+    "\\src\\app\\Pages\\home",
+    "\\src\\assets",
+    "\\src\\assets\\Images",
+    "\\src\\assets\\Styles"
   ],
-  "SelectedNode": "\\src\\app",
+  "SelectedNode": "\\src\\app\\Pages\\about\\about.component.ts",
   "PreviewInSolutionExplorer": false
 }

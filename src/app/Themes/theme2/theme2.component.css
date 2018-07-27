@@ -1,0 +1,22 @@
+:host >>>  .custom > li > a:hover {
+  background-color: rgb(67, 94, 198);
+  color: #000000;
+  border-style: none;
+}
+:host >>> .hi {
+  color: brown
+}
+
+:host >>> .navbar-light{
+  background-color: rgb(15, 44, 96);
+  opacity: 0.9;
+}
+:host >>> .custom-text-white{
+  color: white;
+}
+:host >>> .upper-border-blue{
+  border-top: 1px solid rgb(32, 46, 100);
+}
+:host >>> .buffer-md {
+  padding-top: 50px;
+}

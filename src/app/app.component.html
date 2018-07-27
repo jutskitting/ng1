@@ -1,13 +1,12 @@
 <!--where the router app places the page html || body is located oustide main app folder inside index.html-->
 
 
+<router-outlet> </router-outlet>
 
 
-  <div id="content">
-    <router-outlet></router-outlet>
-  </div>
-
-
+<input #input value="Message">
+<button (click)="popup.showAsComponent(input.value)">Show as component</button>
+<button (click)="popup.showAsElement(input.value)">Show as element</button>
 
 
 
